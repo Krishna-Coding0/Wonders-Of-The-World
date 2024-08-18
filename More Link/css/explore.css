@@ -1,0 +1,117 @@
+.hh{
+position:relative;
+ background:url('../img/exp0.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat:no-repeat;
+}
+	
+	
+	.flex {
+		display: flex;
+		justify-content: space-between;
+	}
+
+		.flex.flex-3 .col {
+			width: 18%;
+		}
+
+
+		.flex.flex-3 .col {
+					width: 100%;
+					margin-bottom: 0.5em;
+				}
+		.flex.flex-3 .col .image {
+						max-width: 60%;
+						margin: 0 2em ;
+					}
+
+	.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
+		box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 4px rgba(0, 0, 0, 0.1);
+		
+	}
+		.image.left, .image.right {
+			max-width: 40%;
+		}
+
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+
+		.image.left {
+			float: left;
+			margin-left: 10%;
+			top: 0.25em;
+		}
+
+		.image.right {
+			float: right;
+			margin-right: 10%;
+			top: 0.25em;
+		}
+
+		.image.fit {
+			display: block;
+			margin: 50%;
+			width: 100%;
+		}
+
+			.image.fit img {
+				width: 100%;
+			}
+
+		.image.round {
+			border-radius: 10%;
+		}
+
+			.image.round img {
+				border-radius: 10%;
+			}
+
+		.image.main {
+			display: block;
+			margin: 0 0 3em 0;
+			width: 90%;
+		}
+
+			.image.main img {
+				width: 100%;
+			}
+
+	.wrapper {
+		padding: 0.5em 1em 0em 0.5em ;
+		position: relative;
+	}
+	.wrapper .inner {
+			margin-left: 9em;
+			margin-right: 5em;
+			width: 60em;
+			position: relative;
+
+		}
+	.wrapper.style1 {
+			color: black;
+			font-size:1rem;
+			
+		}
+			.wrapper > .inner {
+				width: 70em;
+			}
+.last{
+	text-align:center;
+border:2px solid Red;
+}
+
+.space{
+	position:relative;
+	top:50%;
+	left:1050%;
+	margin:0.5em 0;
+	border: 2px solid #ffa54f;
+	border-radius: 2.5em;
+	color:red;
+	background:white;
+}

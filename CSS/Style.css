@@ -1,0 +1,249 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+html{
+	
+	font-size:70.5%;
+}
+
+/*#######################Html Element Style###################################*/
+
+
+body
+{
+	font-family: 'Sansita Swashed', cursive;
+	line-height:1.7;
+}
+
+ul-li{
+	list-style: none;
+}
+
+a{
+	font-size:1.2rem; 
+	text-decoration:none;
+}
+p,li{
+	font-size:1.5rem;
+	margin-bottom:0.5em;
+	letter-spacing:0.15em
+}
+
+h1,h2,h3{
+margin-bottom: 0.5em;
+letter-spacing:0.15em;
+font-weight:400;
+}
+/*########################################utility Claass#########################*/
+.container{
+	max-width:1200px;
+	width:90%;
+	margin:0 auto;
+}
+
+.lg-heading{
+	font-size:3.5rem;
+}
+
+.md-heading{
+	font-size:2.2rem;
+}
+
+.text-red{
+	color:#e63946;
+}
+.text-light{
+	color:#f4f4f4;
+}
+.text-black{
+	color:#333333;
+}
+.text-gray{
+	color:#555555;
+}
+.text-choko{
+	color:#ee7621;
+	font-size:1.5rem;
+	
+}
+
+.btn{
+	display:inline-block;
+	padding:0.5em 1.5em;
+	font-weight:400;
+	text-transform:uppercase;
+	margin:0.5em 0;
+}
+.bg-dark{
+	background-color:#263238;
+}
+.btn-primary{
+	background-color:white;
+	color:red;
+	border-radius:100px;
+	
+}
+.btn-secondry{
+	border: 2px solid red;
+	border-radius: 1.5em;
+	color:red;
+	background:white;  
+}
+
+
+/*############################header Styling#######################*/
+.header{
+position:relative;
+ height:95vh;
+ background:url('../img/Front.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat:no-repeat;
+}
+.navbar{
+	padding:1rem;
+}
+.navbar .logo{
+	float: left;
+	font-size:4.5rem;
+}
+.navbar .nav-items{
+	float: right;
+	margin-top:1rem;
+}
+.navbar .nav-item{
+	display:inline-block;
+	padding:1rem;
+	text-transform:uppercase;
+}
+
+.navbar a:link,
+.navbar a:visited{
+	color:#f4f4f4f;
+}
+.navbar a{
+	padding-bottom:0.3rem;
+}
+.navbar a:hover{
+	border-bottom:1px solid white;
+}
+
+
+.navbar::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*########################Header content#################*/
+.header-content{
+	position:absolute;
+	text-align:center;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	background: liner-gradient(rgba(1,2,0,2),rgba(0,0));
+}
+
+.header-content h1{
+	text-transform:uppercase;
+	fonnt-weight:700;
+}
+
+.header-content p{
+		text-transform:uppercase;
+}
+
+/*#############ShowCase Styling#######################*/
+.showcase{
+	background:#dddddd;
+	padding:4rem 0;
+	background:url(../img/page_bg.png) 0 0 repeat;
+    color:#646464;
+    font-size:12px;
+	
+}
+
+.row{
+	height:350px;
+	background:#ffffff;
+}
+
+.row1{
+	margin-bottom:7rem;
+} 
+.row2{
+	margin-bottom:7rem;
+}
+	
+.row1 .img-box, .row2 .text-box{
+	float: left;
+	width: 50%;
+}
+
+.row2 .img-box, .row1 .text-box{
+	float: right;
+	width: 50%;
+}
+
+.row .img-box{
+	height:100%;
+	
+}
+
+.row .text-box{
+	padding: 2.5rem;
+}
+
+
+.row .img-box img{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+
+
+/****************************************************************************************/
+.last{
+	text-align:center;
+}
+
+.space{
+	position:relative;
+	top:50%;
+	left:1050%;
+	margin:0.5em 0;
+	border: 2px solid #ffa54f;
+	border-radius: 2.5em;
+	color:red;
+	background:white;
+}
+/**************************************************************************************/
+#icon {
+	position:relative;
+	padding:4rem 4;
+	background:url(../img/fliker_bg.png) 0 0 repeat-x;
+	object-fit: contain;
+	margin:1px  2px;
+	display: inline-block;
+	left:5%;
+}
+
+div .item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+	object-fit:cover;
+}
+img {
+    width: 240px;
+    height: 200px;
+	object-fit: contain;
+}
+.caption {
+    display: block;
+}

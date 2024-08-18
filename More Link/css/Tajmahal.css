@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+body
+{
+	font-family: 'Chilanka', cursive;
+	line-height:1.4;
+}
+.image.fit img {
+	width: 100%;
+}
+
+body {
+	background-color: #1e1f23;
+	padding-top: 4rem;
+}
+h2 {
+	border: 2px solid green;
+}
+
+body:after {
+	-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+	-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+	transition: opacity 1.5s ease-in-out, visibility 1.5s;
+	content: '';
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	visibility: visible;
+	opacity: 1;
+	}
+
+#header {
+	color: #a6a6a6;
+	position: relative;
+	text-align: center;
+	font-size: 2rem;
+	}
+
+#main > .inner {
+	margin: 0 auto;
+	width: 80rem;
+	max-width: 90%;
+	margin-bottom: 1rem;
+	background: rgba(255, 255, 255, 0.95);
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+	border-radius: 1px;
+}
+
+#main .image {
+	width: 100%;
+	min-width: 100%;
+	float: none;
+	margin: 0 0 0.5rem 0;
+}
+
+#main .image img {
+	width: 100%;
+}
+.content {
+	padding: 4rem;
+}
+
+
+
+		
